@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-family: Roboto;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: Roboto, serif;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+}
